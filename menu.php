@@ -16,7 +16,7 @@
           integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
           crossorigin="anonymous"></script>
 </head>
-<bodya>
+<body>
 <div id="menu" class="col-xs-4">
   <div class="panel panel-primary">
     <div class="panel-heading" style="font-size: 25px;">Menu</div>
@@ -29,6 +29,8 @@
       <li class="list-group-item"><a href="sql.php" class="list-group-item list-group-item-action">SQL</a></li>
       <li class="list-group-item"><a href="customers.php" class="list-group-item list-group-item-action">Customers</a></li>
       <li class="list-group-item"><a href="add_customer.php" class="list-group-item list-group-item-action">Add Customer</a></li>
+      <li class="list-group-item"><a href="cats.php" class="list-group-item list-group-item-action">Cats</a></li>
+      <li class="list-group-item"><a href="edit_customer.php" class="list-group-item list-group-item-action">Edit Customer</a></li>
     </ul>
   </div>
 </div>

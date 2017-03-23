@@ -2,7 +2,7 @@
 
   <h2>Add Customer</h2>
 
-  <form action="add_customer.php" method="POST">
+  <form action="insert_customer.php" method="POST">
     <div class="form-group">
       <label for="fn">Firstname</label>
       <input type="text" id="fn" name="fn" class="form-control" required>
@@ -21,18 +21,18 @@
   </form>
 
 <?php
-include "connection.php";
-$btn = $_POST['btnAdd'];
-if (isset($btn)) {
-    $fn = $_POST['fn'];
-    $ln = $_POST['ln'];
-    $ad = $_POST['ad'];
-    $add = $db->prepare("INSERT INTO customers(firstname, lastname, streetaddress) VALUES (:fn, :ln, :ad)");
-    $add->bindParam(':fn', $fn);
-    $add->bindParam(':ln', $ln);
-    $add->bindParam(':ad', $ad);
-    $add->execute();
-}
+//include "connection.php";
+//$btn = $_POST['btnAdd'];
+//if (isset($btn)) {
+//    $fn = $_POST['fn'];
+//    $ln = $_POST['ln'];
+//    $ad = $_POST['ad'];
+//    $add = $db->prepare("INSERT INTO customers(firstname, lastname, streetaddress) VALUES (:fn, :ln, :ad)");
+//    $add->bindParam(':fn', $fn);
+//    $add->bindParam(':ln', $ln);
+//    $add->bindParam(':ad', $ad);
+//    $add->execute();
+//}
 ?>
 
 <?php include "footer.php"; ?>
